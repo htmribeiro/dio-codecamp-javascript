@@ -13,6 +13,7 @@ Através da [MDN Web Docs - Mozilla](https://developer.mozilla.org/pt-BR/docs/We
 ## Cursos 📘
 
 Se você preferir cursos, temos esses gratuitos aqui na DIO:
+
 * [Introdução ao JavaScript](https://web.dio.me/course/introducao-ao-javascript/learning/ecf563b8-92b8-4061-95f3-66e32b1014cf)
 * [Sintaxe e Operadores com JavaScript](https://web.dio.me/course/sintaxe-e-operadores-javascript/learning/6e83ba51-9a4d-4c0f-9537-f23e9aa7458a)
 * [Variáveis e Tipos com JavaScript](https://web.dio.me/course/variaveis-e-tipos-com-javascript/learning/f0fb48d7-aaab-4f2d-a8bf-08b426f345e5)
