@@ -2,15 +2,15 @@
 
 Codecamps na DIO são experiências educacionais imersivas que se concentram no desenvolvimento prático de habilidades essenciais, como lógica de programação, pensamento computacional e construção de algoritmos. Além disso, uma característica marcante desses programas é que cada Codecamp apresenta um enredo, contando uma história com foco em Soft Skills (habilidades interpessoais) e Hard Skills (habilidades técnicas) em um ambiente lúdico.
 
-### Resolvendo o Codecamp 💻
+## Resolvendo o Codecamp 💻
 
 links onde você poderá acessar cursos e documentações da linguagem que utilizamos nos desafios.
 
-### Documentação 📰
+## Documentação 📰
 
 Através da [MDN Web Docs - Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) você vai encontrar toda a documentação do JavaScript, linguagem que os desafios devem ser resolvidos.
 
-### Cursos 📘
+## Cursos 📘
 
 Se você preferir cursos, temos esses gratuitos aqui na DIO:
 * [Introdução ao JavaScript](https://web.dio.me/course/introducao-ao-javascript/learning/ecf563b8-92b8-4061-95f3-66e32b1014cf)
