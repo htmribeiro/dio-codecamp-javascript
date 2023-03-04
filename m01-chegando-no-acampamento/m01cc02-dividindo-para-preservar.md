@@ -15,8 +15,8 @@ Para isso, foi definido que os IDs
 
 Aproveite essa oportunidade para
 
-* [ ] criar um código que verifique o ID do CleanCoder e
-* [ ] indique para onde ele deve ir: Direita ou Esquerda.
+* [X] criar um código que verifique o ID do CleanCoder e
+* [X] indique para onde ele deve ir: Direita ou Esquerda.
 
 Um jeito bem fácil de fazermos essa verificação é utilizando o operador `%`. Com ele conseguimos verificar o resto de divisões.
 
@@ -41,7 +41,16 @@ As entradas serão números inteiros positivos que representarão os **IDs** dos
 
 let id = parseInt(gets());
 
-//TODO: Print no console para qual Barraca o CleanCoder deve ir
+//DONE: Print no console para qual Barraca o CleanCoder deve ir
+let direction = id % 2;
+let goToRight = 'Barraca da Direita'
+let goToLeft = 'Barraca da Esquerda'
+
+if (direction === 0) {
+    print(goToRight);
+} else {
+    print(goToLeft);
+}
 ```
 
 ### TESTS
@@ -49,35 +58,29 @@ let id = parseInt(gets());
 #### Test #3
 
 **Input data:**
-Marcelo
-Velloso
-250
+60
 **Expected output:**
-Nome: Marcelo Velloso ID: 250
+Barraca da Direita
 **Your Output:**
-Nome: Marcelo Velloso ID: 250
+Barraca da Direita
 
 #### Test #4
 
 **Input data:**
-Fernanda
-Bombarda
-77
+45
 **Expected output:**
-Nome: Fernanda Bombarda ID: 77
+Barraca da Esquerda
 **Your Output:**
-Nome: Fernanda Bombarda ID: 77
+Barraca da Esquerda
 
 #### Test #5
 
 **Input data:**
-Caio
-Belintani
-25
+100
 **Expected output:**
-Nome: Caio Belintani ID: 25
+Barraca da Direita
 **Your Output:**
-Nome: Caio Belintani ID: 25
+Barraca da Direita
 
 ### INFO
 
