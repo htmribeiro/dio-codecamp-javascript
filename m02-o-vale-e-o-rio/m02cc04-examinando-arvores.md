@@ -21,7 +21,7 @@ Crie um código que, para cada item dessa lista:
 
 > Lembrando que todas as amostras são de **exatamente** 100g e as listas terão **tamanhos variados**.
 
-## ⛺ Entradas e Saídas
+## 🌅 Entradas e Saídas
 
 As entradas será uma lista com as porcentagens de saúde das árvores. Para a saída esperamos que seja printado no console, dependendo da porcentagem, se a árvore deve: "Ser descartada da lista", "Manter sob observação" ou "Isolar e iniciar protocolos de cuidados". Essas frases devem ser printadas para cada item da lista.
 
