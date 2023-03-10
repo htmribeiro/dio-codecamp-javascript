@@ -11,7 +11,7 @@ Chegando no Vale, ao lado do rio Jacará-Mirim, a natureza se mostra exuberante.
 Crie um código que, para cada item dessa lista:
 
 * [ ] verifique se a amostra está com um nível: **Bom**, **Aceitável** ou **Inaceitável**.
-* [ ] Para cada nível, imprima a ação que deve ser realizada considerando as seguintes regras:
+* [X] Para cada nível, imprima a ação que deve ser realizada considerando as seguintes regras:
   * Bom (mais de 75% de saúde na amostra)
     * Imprima `"Descartar da lista"`
   * Aceitável (mais de 50% e menos de 75%)
