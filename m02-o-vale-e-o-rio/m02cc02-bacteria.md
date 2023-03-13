@@ -30,13 +30,13 @@ Interessante de Dezembro/2022:
 
 Crie um código que, dependendo da quantidade de plástico, nos diga em:
 
-* [ ] quantos dias teremos **1kg** ou menos de plástico (viabilizando a coleta
+* [X] quantos dias teremos **1kg** ou menos de plástico (viabilizando a coleta
 manual).
 
 ## 🌅 Entradas e Saídas
 
-* [ ] A entrada será a quantidade de plástico em quilogramas.
-* [ ] A saída deverá ser a quantidade de dias que levará para que essa
+* [X] A entrada será a quantidade de plástico em quilogramas.
+* [X] A saída deverá ser a quantidade de dias que levará para que essa
 quantidade de plástico chegue a 1kg ou menos.
 
 ## 🌳 Exemplo
@@ -57,17 +57,57 @@ quantidade de plástico chegue a 1kg ou menos.
 let plastico = parseInt(gets());
 let diasNecessarios = 0;
 
-//TODO: Print no console a quantidade de dias que levará para que o plástico
-//TODO: chegue a 1kg ou menos
+//DONE: Print no console a quantidade de dias que levará para que o plástico chegue
+//DONE: a 1kg ou menos
+
+function decompoe(plastico, diasNecessarios) {
+    if (!plastico) {
+        print("insira um valor Válido");
+        return;
+    } else if (plastico === 1) {
+        print("Parabéns CleanCoders, Meta alcançada!");
+        return;
+    } else {
+        while (plastico > 1) {
+          plastico /= 2;
+          diasNecessarios++;
+        }
+
+        print(`Serão necessários ${diasNecessarios} dias`);
+    }
+};
+
+decompoe(plastico, diasNecessarios);
 ```
 
 ### TESTS
 
-#### Test #2
+#### Test #1
 
 **Input data:**
+2002
 **Expected output:**
+Serão necessários 11 dias
 **Your Output:**
+Serão necessários 11 dias
+
+#### Test #3
+
+**Input data:**
+4
+**Expected output:**
+Serão necessários 2 dias
+**Your Output:**
+Serão necessários 2 dias
+
+#### Test #5
+
+**Input data:**
+100
+**Expected output:**
+Serão necessários 7 dias
+**Your Output:**
+Serão necessários 7 dias
 
 ### INFO
 
