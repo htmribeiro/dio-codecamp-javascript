@@ -5,12 +5,24 @@
 let plastico = parseInt(prompt());
 let diasNecessarios = 0;
 
-//TODO: Print no console a quantidade de dias que levará para que o plástico chegue
-//TODO: a 1kg ou menos
+//DONE: Print no console a quantidade de dias que levará para que o plástico chegue
+//DONE: a 1kg ou menos
 
-while (plastico > 1) {
-    plastico / 2;
-    diasNecessarios++;
-}
+function decompoe(plastico, diasNecessarios) {
+    if (!plastico) {
+        alert("insira um valor Válido");
+        return;
+    } else if (plastico === 1) {
+        alert("Parabéns CleanCoders, Meta alcançada!");
+        return;
+    } else {
+        while (plastico > 1) {
+          plastico /= 2;
+          diasNecessarios++;
+        }
 
-alert(`Serão necessários ${diasNecessarios} dias`)
+        alert(`Serão necessários ${diasNecessarios} dias`);
+    }
+};
+
+decompoe(plastico, diasNecessarios);
