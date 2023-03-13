@@ -30,7 +30,9 @@ As entradas serão quantos metros o drone verificou entre um buraco e outro. A s
 | 15 | O buraco deve retroceder 5 metros |
 | 2  | O buraco deve avançar 8 metros    |
 
-### Code
+### Code Submitted
+
+* Para resolução da atividade utilizei o método [`Math.abs()`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/abs), que retorna o valor absoluto de um número.
 
 ```js
 //Desafios JavaScript na DIO têm funções "gets" e "print" acessíveis globalmente:
